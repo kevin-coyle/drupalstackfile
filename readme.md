@@ -2,4 +2,4 @@
 
 To begin locally just run:
 
-`docker-compose -f stackfile.yml up -d`
+`docker-compose -f tutum.yml up -d`
