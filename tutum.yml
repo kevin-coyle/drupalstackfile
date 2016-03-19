@@ -7,7 +7,7 @@ drupal:
 mysql:
   image: mysql
   environment:
-    - MYSQL_ROOT_PASSWORD: root
-    - MYSQL_DATABASE: drupal
-    - MYSQL_USER: drupal
-    - MYSQL_PASSWORD: drupal
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=drupal
+    - MYSQL_USER=drupal
+    - MYSQL_PASSWORD=drupal
